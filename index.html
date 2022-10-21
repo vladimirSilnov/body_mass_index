@@ -2,21 +2,23 @@
 <html>
 <head>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <meta charset="UTF-8">
 </head>
 <body>
-  <div class="wrapper"><form id="login_form">
+  <div class="wrapper">
     <div id="left_block"><p>LEFT BLOCK</p></div>
-    <form id="bmi_form">
+    <form id="bmi_form" action="" method="">
       <div id="header"><p>HEADER</p></div>
       <div id="bmi_input_form">
-        <p><input type="text" name="name" size="15" placeholder="Enter your name"></p>
-        <p><input type="text" name="height" size="15" placeholder="Enter your height"></p>
-        <p><input type="text" name="weight" size="15" placeholder="Enter your weight"></p>
-        <p id="submit"><input type="submit" size="15" value="SUBMIT"></p>
+        <p><input type="text" class="input_name" size="15" placeholder="Enter your name"></p>
+        <div class="output_name"></div>
+        <p><input type="text" class="input_height" size="15" placeholder="Enter your height"></p>
+        <p><input type="text" class="input_weight" size="15" placeholder="Enter your weight"></p>
+        <button type="submit" class="btn">SUBMIT</button>
       </div>
       <div id="right_block"><p>RIGHT BLOCK</p></div>
     </form>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
